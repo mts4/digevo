@@ -1,0 +1,37 @@
+#digevoLive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 991px) {
+    padding-top: 80px;
+  }
+  .boxImage {
+    .boxImage__image {
+      width: 100%;
+    }
+  }
+
+  .boxInformation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -100px;
+    background-color: var(--white);
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 10px 19px -6px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 10px 19px -6px rgba(0, 0, 0, 0.39);
+    box-shadow: 0px 10px 19px -6px rgba(0, 0, 0, 0.39);
+    @media (max-width: 991px) {
+      top: 20px;
+      margin-bottom: 40px;
+      max-width: 60%;
+      .boxInformation__image {
+        max-width: 140px;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+#band{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    h3{
+        color: var(--white);
+        text-align: center;
+    }
+}

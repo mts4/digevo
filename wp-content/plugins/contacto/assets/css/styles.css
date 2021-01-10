@@ -1,0 +1,93 @@
+.form__layoutForm .error {
+  border: 1px solid red;
+}
+
+.form__layoutForm label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.form__layoutForm input {
+  margin-bottom: 20px;
+}
+
+.form__layoutForm .boxMensaje {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form__layoutForm .boxMensaje .boxMensaje__legal {
+  font-size: 16px;
+  color: #8c8c8c;
+}
+
+.form__layoutForm .formFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+  .form__layoutForm .formFooter {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.form__layoutForm .formFooter span {
+  font-size: 20px;
+}
+
+.form__layoutForm .formFooter .btn_send {
+  background-color: #252828;
+  border-color: #252828;
+  overflow: hidden;
+  border-radius: 1px;
+  padding: 15px 110px 14px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+.form__layoutForm .formFooter .btn_send:hover {
+  background-color: #E233A9;
+  border-color: #E233A9;
+}
+
+.form__layoutForm .successMessage {
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,17 @@
+:root {
+  --rose: #e233a9;
+  --black: #252828;
+  --bgRose: rgba(226, 51, 169, 0.2);
+  --gris: #f8f8f8;
+  --graySolid: rgba(140, 140, 140, 0.3);
+  --white: #ffffff;
+}
+
+.logo {
+  width: 120px;
+  height: 24px;
+  transition: all ease-in-out 0.4s;
+  &:hover {
+    fill: var(--rose);
+  }
+}

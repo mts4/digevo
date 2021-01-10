@@ -1,0 +1,30 @@
+#services{
+    .boxServices{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        border: 1px solid var(--graySolid);
+        padding: 20px;
+        margin-bottom: 20px;
+
+        .boxServices__bullet{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--bgRose);
+            padding: 15px;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+        }
+
+        .boxServices__information{
+            margin-left: 10px;
+            p{
+                padding: 0px;
+                margin: 0px;
+            }
+        }
+    }
+}

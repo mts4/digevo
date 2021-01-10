@@ -1,0 +1,65 @@
+.form__layoutForm {
+  .error{
+    border: 1px solid red;
+  }
+
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  input {
+    margin-bottom: 20px;
+  }
+
+  .boxMensaje {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .boxMensaje__legal {
+      font-size: 16px;
+      color: #8c8c8c;
+    }
+  }
+
+  .formFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @media (max-width: 600px) {
+      flex-direction: column;
+      justify-content: center;
+    }
+    span {
+      font-size: 20px;
+    }
+
+    .btn_send {
+      background-color: #252828;
+      border-color: #252828;
+      overflow: hidden;
+      border-radius: 1px;
+      padding: 15px 110px 14px;
+      color: #fff;
+      font-weight: 400;
+      font-size: 18px;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: all ease-in-out 0.4s;
+
+      &:hover{
+        background-color: #E233A9;
+        border-color: #E233A9;
+      }
+    }
+  }
+
+  .successMessage{
+    display: none;
+  }
+}
